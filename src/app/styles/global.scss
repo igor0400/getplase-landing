@@ -1,0 +1,78 @@
+@import './imports.scss';
+
+// styles
+* {
+  font-family: 'Manrope', sans-serif;
+}
+
+html,
+body,
+#__next {
+  height: 100%;
+}
+
+body {
+  overflow: scroll;
+}
+
+body,
+.wrapper {
+  background: $mainbackground;
+  color: #1e1e1e;
+}
+
+input {
+  outline: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+main {
+  margin-top: $headerHeight;
+  min-height: calc(100vh - $headerHeight);
+  @media (max-width: 640px) {
+    margin-top: $headerHeight640;
+    min-height: calc(100vh - $headerHeight640);
+  }
+  @media screen and (max-width: 425px) {
+    margin-top: $headerHeight425;
+    min-height: calc(100vh - $headerHeight425);
+  }
+}
+
+::-webkit-scrollbar {
+  height: 100%;
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: $mainbackground;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: $scrollThumb;
+  &:hover {
+    background: $scrollThumbHover;
+  }
+}
+
+.full-height {
+  height: calc(100vh - $headerHeight);
+  @media screen and (max-width: 640px) {
+    height: calc(100vh - $headerHeight640);
+  }
+  @media screen and (max-width: 425px) {
+    height: calc(100vh - $headerHeight425);
+  }
+}
+
+.min-full-height {
+  min-height: calc(100vh - $headerHeight);
+  @media screen and (max-width: 640px) {
+    min-height: calc(100vh - $headerHeight640);
+  }
+  @media screen and (max-width: 425px) {
+    min-height: calc(100vh - $headerHeight425);
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "ru": {
+    "title": "Доступные города и страны",
+    "countries": [
+      {
+        "title": "Казахстан",
+        "cities": ["Астана", "Астана", "Астана", "Астана", "Астана"]
+      },
+      {
+        "title": "Казахстан",
+        "cities": ["Астана", "Астана", "Астана", "Астана", "Астана"]
+      }
+    ]
+  },
+  "en": {
+    "title": "Accessible cities and countries",
+    "countries": [
+      {
+        "title": "Kazakhstan",
+        "cities": ["Astana", "Astana", "Astana", "Astana", "Astana"]
+      },
+      {
+        "title": "Kazakhstan",
+        "cities": ["Astana", "Astana", "Astana", "Astana", "Astana"]
+      }
+    ]
+  }
+}

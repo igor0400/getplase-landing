@@ -1,0 +1,56 @@
+{
+  "ru": {
+    "loginBtn": "B2b Вход",
+    "regBtn": "Регистрация",
+    "navTitle": "Навигация",
+    "navs": [
+      {
+        "title": "О нас",
+        "link": "/"
+      },
+      {
+        "title": "Бронирование",
+        "link": "/#booking"
+      },
+      {
+        "title": "Страны",
+        "link": "/#countries"
+      },
+      {
+        "title": "Возможности",
+        "link": "/#features"
+      },
+      {
+        "title": "FAQ",
+        "link": "/#faq"
+      }
+    ]
+  },
+  "en": {
+    "loginBtn": "B2b log in",
+    "regBtn": "sing in",
+    "navTitle": "Navigation",
+    "navs": [
+      {
+        "title": "About us",
+        "link": "/"
+      },
+      {
+        "title": "Booking",
+        "link": "/#booking"
+      },
+      {
+        "title": "Countries",
+        "link": "/#countries"
+      },
+      {
+        "title": "Features",
+        "link": "/#features"
+      },
+      {
+        "title": "FAQ",
+        "link": "/#faq"
+      }
+    ]
+  }
+}

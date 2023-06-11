@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  onyx-landing:
+    build: ./
+    container_name: "onyx-landing"
+    image: onyx-landing
+
+    ports:
+      - "3000:3000"
