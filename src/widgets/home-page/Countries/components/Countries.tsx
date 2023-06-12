@@ -11,28 +11,29 @@ const Countries: FC = () => {
   const isLargerThan640 = useMediaQuery('(min-width: 640px)');
 
   return (
-    <div
-      className="rounded-3xl sm:rounded-[70px]"
-      style={{ background: '#FFD53F' }}
-      id="countries"
-    >
-      <div className="py-10 sm:py-20 max-w-6xl mx-auto px-5 sm:px-10">
-        <h2
-          className="text-3xl sm:text-5xl sm:h-[80px] font-extrabold"
-          style={
-            isLargerThan640
-              ? {
-                  background: `url('${lines.src}') 0% 100% no-repeat`,
-                }
-              : undefined
-          }
-        >
-          {t('title')}
-        </h2>
-        <div className="mt-6 sm:mt-10 md:mt-6 flex flex-wrap gap-2">
-          {t('countries').map((item: any, i: number) => (
-            <CountryCard {...item} key={i} />
-          ))}
+    <div className="pt-20 sm:pt-36" id="countries">
+      <div
+        className="rounded-3xl sm:rounded-[70px]"
+        style={{ background: '#FFD53F' }}
+      >
+        <div className="py-10 sm:py-20 max-w-6xl mx-auto px-5 sm:px-10">
+          <h2
+            className="text-3xl sm:text-5xl sm:h-[80px] font-extrabold"
+            style={
+              isLargerThan640
+                ? {
+                    background: `url('${lines.src}') 0% 100% no-repeat`,
+                  }
+                : undefined
+            }
+          >
+            {t('title')}
+          </h2>
+          <div className="mt-6 sm:mt-10 md:mt-6 flex flex-wrap gap-2">
+            {t('countries').map((item: any, i: number) => (
+              <CountryCard {...item} key={i} />
+            ))}
+          </div>
         </div>
       </div>
     </div>

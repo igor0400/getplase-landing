@@ -1,10 +1,18 @@
+import { useRouter } from 'next/router';
 import { useTranslate } from '../features/locale';
-import { PageWrapper } from '../shared';
+import { PageWrapper, useTypedSelector } from '../shared';
 
 import { notFoundSettings } from '../widgets/NotFound';
+import { useEffect } from 'react';
 
 export default function NotFound() {
   const { t } = useTranslate(notFoundSettings);
+  const router = useRouter();
+  const lang = useTypedSelector((state) => state.locales.lang);
+
+  useEffect(() => {
+    router.push(`/${lang}`);
+  }, []);
 
   return (
     <PageWrapper withMinMax={false}>

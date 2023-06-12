@@ -1,14 +1,26 @@
 {
   "ru": {
-    "text1": "Политика использования",
-    "text2": "Лицензионное соглашение",
-    "text3": "Политика конфиденциальности",
-    "text4": "Обработка персональных данных"
+    "description": "Бронируй вместе с нами!",
+    "company": {
+      "title": "Компания",
+      "text1": "Компания: ТОО \"ONYX SYSTEMS\"",
+      "text2": "БИН (ИИН): 211040010191",
+      "text3": "Банк: АО \"Kaspi Bank\"",
+      "text4": "КБе: 17",
+      "text5": "БИК: CASPKZKA",
+      "text6": "Номер счёта: KZ23722S000018661161"
+    }
   },
   "en": {
-    "text1": "Use policy",
-    "text2": "License Agreement",
-    "text3": "Privacy Policy",
-    "text4": "Processing of personal data"
+    "description": "Book with us!",
+    "company": {
+      "title": "Company",
+      "text1": "Company: ONYX SYSTEMS LLP",
+      "text2": "BIN (IIN): 211040010191",
+      "text3": "Bank: JSC \"Kaspi Bank\"",
+      "text4": "KBe: 17",
+      "text5": "BIK: CASPKZKA",
+      "text6": "Account number: KZ23722S000018661161"
+    }
   }
 }

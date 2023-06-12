@@ -1,0 +1,44 @@
+{
+  "ru": {
+    "title": "Частые вопросы",
+    "cards": [
+      {
+        "title": "Можно ли оформить заказ через приложение?",
+        "description": "Lorem ipsum dolor sit amet consectetur. Adipiscing amet magna tempus rhoncus et aliquam cursus eros id. Massa sit porttitor egestas aliquet sagittis in gravida. Platea rutrum donec luctus est neque ac sit posuere turpis. Vel nisl turpis nec odio. At nunc id nunc dui cum. Commodo ultrices ut sed ullamcorper velit nisl pretium. Eget justo ipsum quis ut dignissim leo sed aliquam facilisis. Vestibulum cursus accumsan cursus proin vel odio sed aliquet in. Eu enim cras tellus cras hendrerit tellus rhoncus orci sed. Lorem in integer erat feugiat. Quis id eget arcu nisi urna. Id urna lacus mi vel. Consectetur in egestas tempus eu. Sit sed nunc dignissim tristique nisl id euismod non amet."
+      },
+      {
+        "title": "Как оформить доверительный платеж?",
+        "description": "Lorem ipsum dolor sit amet consectetur. Adipiscing amet magna tempus rhoncus et aliquam cursus eros id. Massa sit porttitor egestas aliquet sagittis in gravida. Platea rutrum donec luctus est neque ac sit posuere turpis. Vel nisl turpis nec odio. At nunc id nunc dui cum. Commodo ultrices ut sed ullamcorper velit nisl pretium. Eget justo ipsum quis ut dignissim leo sed aliquam facilisis. Vestibulum cursus accumsan cursus proin vel odio sed aliquet in. Eu enim cras tellus cras hendrerit tellus rhoncus orci sed. Lorem in integer erat feugiat. Quis id eget arcu nisi urna. Id urna lacus mi vel. Consectetur in egestas tempus eu. Sit sed nunc dignissim tristique nisl id euismod non amet."
+      },
+      {
+        "title": "Что будет если отменить бронь?",
+        "description": "Lorem ipsum dolor sit amet consectetur. Adipiscing amet magna tempus rhoncus et aliquam cursus eros id. Massa sit porttitor egestas aliquet sagittis in gravida. Platea rutrum donec luctus est neque ac sit posuere turpis. Vel nisl turpis nec odio. At nunc id nunc dui cum. Commodo ultrices ut sed ullamcorper velit nisl pretium. Eget justo ipsum quis ut dignissim leo sed aliquam facilisis. Vestibulum cursus accumsan cursus proin vel odio sed aliquet in. Eu enim cras tellus cras hendrerit tellus rhoncus orci sed. Lorem in integer erat feugiat. Quis id eget arcu nisi urna. Id urna lacus mi vel. Consectetur in egestas tempus eu. Sit sed nunc dignissim tristique nisl id euismod non amet."
+      },
+      {
+        "title": "Как работает система геймификации?",
+        "description": "Lorem ipsum dolor sit amet consectetur. Adipiscing amet magna tempus rhoncus et aliquam cursus eros id. Massa sit porttitor egestas aliquet sagittis in gravida. Platea rutrum donec luctus est neque ac sit posuere turpis. Vel nisl turpis nec odio. At nunc id nunc dui cum. Commodo ultrices ut sed ullamcorper velit nisl pretium. Eget justo ipsum quis ut dignissim leo sed aliquam facilisis. Vestibulum cursus accumsan cursus proin vel odio sed aliquet in. Eu enim cras tellus cras hendrerit tellus rhoncus orci sed. Lorem in integer erat feugiat. Quis id eget arcu nisi urna. Id urna lacus mi vel. Consectetur in egestas tempus eu. Sit sed nunc dignissim tristique nisl id euismod non amet."
+      }
+    ]
+  },
+  "en": {
+    "title": "Faq",
+    "cards": [
+      {
+        "title": "Is it possible to place an order through the app?",
+        "description": "Lorem ipsum dolor sit amet consectetur. Adipiscing amet magna tempus rhoncus et aliquam cursus eros id. Massa sit porttitor egestas aliquet sagittis in gravida. Platea rutrum donec luctus est neque ac sit posuere turpis. Vel nisl turpis nec odio. At nunc id nunc dui cum. Commodo ultrices ut sed ullamcorper velit nisl pretium. Eget justo ipsum quis ut dignissim leo sed aliquam facilisis. Vestibulum cursus accumsan cursus proin vel odio sed aliquet in. Eu enim cras tellus cras hendrerit tellus rhoncus orci sed. Lorem in integer erat feugiat. Quis id eget arcu nisi urna. Id urna lacus mi vel. Consectetur in egestas tempus eu. Sit sed nunc dignissim tristique nisl id euismod non amet."
+      },
+      {
+        "title": "How to make a trust payment?",
+        "description": "Lorem ipsum dolor sit amet consectetur. Adipiscing amet magna tempus rhoncus et aliquam cursus eros id. Massa sit porttitor egestas aliquet sagittis in gravida. Platea rutrum donec luctus est neque ac sit posuere turpis. Vel nisl turpis nec odio. At nunc id nunc dui cum. Commodo ultrices ut sed ullamcorper velit nisl pretium. Eget justo ipsum quis ut dignissim leo sed aliquam facilisis. Vestibulum cursus accumsan cursus proin vel odio sed aliquet in. Eu enim cras tellus cras hendrerit tellus rhoncus orci sed. Lorem in integer erat feugiat. Quis id eget arcu nisi urna. Id urna lacus mi vel. Consectetur in egestas tempus eu. Sit sed nunc dignissim tristique nisl id euismod non amet."
+      },
+      {
+        "title": "What happens if I cancel my reservation?",
+        "description": "Lorem ipsum dolor sit amet consectetur. Adipiscing amet magna tempus rhoncus et aliquam cursus eros id. Massa sit porttitor egestas aliquet sagittis in gravida. Platea rutrum donec luctus est neque ac sit posuere turpis. Vel nisl turpis nec odio. At nunc id nunc dui cum. Commodo ultrices ut sed ullamcorper velit nisl pretium. Eget justo ipsum quis ut dignissim leo sed aliquam facilisis. Vestibulum cursus accumsan cursus proin vel odio sed aliquet in. Eu enim cras tellus cras hendrerit tellus rhoncus orci sed. Lorem in integer erat feugiat. Quis id eget arcu nisi urna. Id urna lacus mi vel. Consectetur in egestas tempus eu. Sit sed nunc dignissim tristique nisl id euismod non amet."
+      },
+      {
+        "title": "How does the gamification system work?",
+        "description": "Lorem ipsum dolor sit amet consectetur. Adipiscing amet magna tempus rhoncus et aliquam cursus eros id. Massa sit porttitor egestas aliquet sagittis in gravida. Platea rutrum donec luctus est neque ac sit posuere turpis. Vel nisl turpis nec odio. At nunc id nunc dui cum. Commodo ultrices ut sed ullamcorper velit nisl pretium. Eget justo ipsum quis ut dignissim leo sed aliquam facilisis. Vestibulum cursus accumsan cursus proin vel odio sed aliquet in. Eu enim cras tellus cras hendrerit tellus rhoncus orci sed. Lorem in integer erat feugiat. Quis id eget arcu nisi urna. Id urna lacus mi vel. Consectetur in egestas tempus eu. Sit sed nunc dignissim tristique nisl id euismod non amet."
+      }
+    ]
+  }
+}

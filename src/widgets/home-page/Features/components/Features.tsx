@@ -13,7 +13,7 @@ const Features: FC = () => {
 
   return (
     <div
-      className="py-20 sm:py-36 max-w-6xl mx-auto px-5 sm:px-20 xl:px-10"
+      className="pt-20 sm:pt-36 max-w-6xl mx-auto px-5 sm:px-20 xl:px-10"
       id="features"
     >
       <div className="flex max-lg:flex-col lg:justify-between lg:items-end">
