@@ -15,7 +15,14 @@ const Faq: FC = () => {
       </h2>
       <div className="pt-8 sm:pt-12 flex flex-col gap-4">
         {t('cards').map((item: any, i: number) => (
-          <FaqCard {...item} key={i} onClick={() => setActiveCard(i)} isActive={i === activeCard} />
+          <FaqCard
+            {...item}
+            key={i}
+            onClick={() =>
+              activeCard === i ? setActiveCard(null) : setActiveCard(i)
+            }
+            isActive={i === activeCard}
+          />
         ))}
       </div>
     </div>

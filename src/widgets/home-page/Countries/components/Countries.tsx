@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, useState } from 'react';
 import { useTranslate } from '../../../../features/locale';
 import { useMediaQuery } from '@mui/material';
 import CountryCard from '../../../../entities/home-page/CountryCard';
@@ -9,6 +9,7 @@ import lines from 'public/icons/features-lines.svg';
 const Countries: FC = () => {
   const { t } = useTranslate(settings);
   const isLargerThan640 = useMediaQuery('(min-width: 640px)');
+  const [activeCard, setActiveCard] = useState<null | number>(null);
 
   return (
     <div className="pt-20 sm:pt-36" id="countries">
@@ -30,8 +31,19 @@ const Countries: FC = () => {
             {t('title')}
           </h2>
           <div className="mt-6 sm:mt-10 md:mt-6 flex flex-wrap gap-2">
-            {t('countries').map((item: any, i: number) => (
-              <CountryCard {...item} key={i} />
+            {t('countries').map((item: any) => (
+              <CountryCard
+                {...item}
+                key={item.id}
+                onGlobalClick={() => {
+                  if (activeCard === item.id) {
+                    setActiveCard(null);
+                  } else {
+                    setActiveCard(item.id);
+                  }
+                }}
+                isGlobalActive={item.id === activeCard}
+              />
             ))}
           </div>
         </div>

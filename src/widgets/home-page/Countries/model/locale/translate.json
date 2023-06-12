@@ -3,16 +3,19 @@
     "title": "Доступные города и страны",
     "countries": [
       {
+        "id": 1,
         "title": "Казахстан",
         "cities": ["Астана", "Астана", "Астана", "Астана", "Астана"]
       },
       {
+        "id": 2,
         "title": "Казахстан",
         "cities": ["Астана", "Астана", "Астана", "Астана", "Астана"]
       },
       {
+        "id": 3,
         "title": "Казахстан",
-        "cities": ["Первый", "Второй", "Астана", "Астана", "Колым", "Последний"]
+        "cities": ["Астана", "Астана", "Астана", "Астана", "Астана"]
       }
     ]
   },
@@ -20,14 +23,17 @@
     "title": "Accessible cities and countries",
     "countries": [
       {
+        "id": 1,
         "title": "Kazakhstan",
         "cities": ["Astana", "Astana", "Astana", "Astana", "Astana"]
       },
       {
+        "id": 2,
         "title": "Kazakhstan",
         "cities": ["Astana", "Astana", "Astana", "Astana", "Astana"]
       },
       {
+        "id": 3,
         "title": "Kazakhstan",
         "cities": ["Astana", "Astana", "Astana", "Astana", "Astana"]
       }

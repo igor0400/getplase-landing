@@ -19,7 +19,7 @@ const FaqCard: FC<Props> = ({ title, description, onClick, isActive }) => {
   return (
     <div
       onClick={onClick}
-      className="rounded-3xl shadow-md p-4 sm:p-6"
+      className="rounded-3xl shadow-md p-4 sm:p-6 cursor-pointer"
       style={{ background: isActive ? 'rgba(252, 199, 10, 0.15)' : undefined }}
     >
       <div className="flex items-center justify-between gap-8">
