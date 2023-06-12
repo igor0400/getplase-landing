@@ -6,8 +6,8 @@ import settings from '../model/locale/translate';
 
 import background from 'public/images/title-bg.png';
 import textBgLine from 'public/images/title-bg-text-line.png';
-import appstore from 'public/images/appstore-dl.png';
-import googlaPlay from 'public/images/google-play-dl.png';
+import appstore from 'public/images/appstore-dl.svg';
+import googlaPlay from 'public/images/google-play-dl.svg';
 import qr from 'public/images/qr-dl.png';
 
 import Image from 'next/image';

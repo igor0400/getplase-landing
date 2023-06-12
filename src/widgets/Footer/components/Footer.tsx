@@ -8,11 +8,15 @@ import appstore from 'public/images/appstore-golden.svg';
 import playmarket from 'public/images/google-play-golden.svg';
 import qr from 'public/images/qr-golden.svg';
 import copyright from 'public/icons/copyright.svg';
+import Link from 'next/link';
+import { useTypedSelector } from '../../../shared';
 
 const Footer: FC = () => {
   const { t } = useTranslate(settings);
+  const lang = useTypedSelector((state) => state.locales.lang);
   const isLargerThan640 = useMediaQuery('(min-width: 640px)');
   const company = t('company');
+  const policy = t('policy');
 
   return (
     <footer
@@ -37,13 +41,21 @@ const Footer: FC = () => {
         <div className="flex flex-wrap justify-between max-[800px]:flex-col pt-6 sm:pt-12 gap-y-8 gap-x-4">
           <div>
             <h6 className="font-semibold text-xl">{company.title}</h6>
-            <div className="font-light pt-2 text-sm flex flex-col gap-1">
-              <p>{company.text1}</p>
-              <p>{company.text2}</p>
-              <p>{company.text3}</p>
-              <p>{company.text4}</p>
-              <p>{company.text5}</p>
-              <p>{company.text6}</p>
+            <div className="flex flex-wrap gap-x-4 gap-y-2">
+              <div className="font-light pt-2 text-sm flex flex-col gap-1">
+                <p>{company.text1}</p>
+                <p>{company.text2}</p>
+                <p>{company.text3}</p>
+                <p>{company.text4}</p>
+                <p>{company.text5}</p>
+                <p>{company.text6}</p>
+              </div>
+              <div className="font-light pt-2 text-sm flex flex-col gap-1">
+                <Link href={`/${lang}`}>{policy.text1}</Link>
+                <Link href={`/${lang}`}>{policy.text2}</Link>
+                <Link href={`/${lang}`}>{policy.text3}</Link>
+                <Link href={`/${lang}`}>{policy.text4}</Link>
+              </div>
             </div>
           </div>
           <div className="flex flex-col justify-between gap-y-8">

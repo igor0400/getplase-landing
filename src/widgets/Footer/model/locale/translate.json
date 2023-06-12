@@ -9,6 +9,12 @@
       "text4": "КБе: 17",
       "text5": "БИК: CASPKZKA",
       "text6": "Номер счёта: KZ23722S000018661161"
+    },
+    "policy": {
+      "text1": "Политика использования",
+      "text2": "Лицензионное соглашение",
+      "text3": "Политика конфиденциальности",
+      "text4": "Обработка персональных данных"
     }
   },
   "en": {
@@ -21,6 +27,12 @@
       "text4": "KBe: 17",
       "text5": "BIK: CASPKZKA",
       "text6": "Account number: KZ23722S000018661161"
+    },
+    "policy": {
+      "text1": "Use policy",
+      "text2": "License Agreement",
+      "text3": "Privacy Policy",
+      "text4": "Processing of personal data"
     }
   }
 }
