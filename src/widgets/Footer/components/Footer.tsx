@@ -61,18 +61,29 @@ const Footer: FC = () => {
           <div className="flex flex-col justify-between gap-y-8">
             <div className="flex flex-wrap gap-4">
               <div className="flex flex-wrap max-sm:flex-col sm:gap-4 gap-2">
-                <Image
-                  src={appstore}
-                  alt="appstore"
-                  height={isLargerThan640 ? 55 : 40}
-                  width={isLargerThan640 ? 200 : 160}
-                />
-                <Image
-                  src={playmarket}
-                  alt="playmarket"
-                  height={isLargerThan640 ? 55 : 40}
-                  width={isLargerThan640 ? 200 : 160}
-                />
+                <Link
+                  href="https://apps.apple.com/ru/app/google/id284815942"
+                  target="_blank"
+                >
+                  <Image
+                    src={appstore}
+                    alt="appstore"
+                    height={isLargerThan640 ? 55 : 40}
+                    width={isLargerThan640 ? 200 : 160}
+                  />
+                </Link>
+
+                <Link
+                  href="https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox"
+                  target="_blank"
+                >
+                  <Image
+                    src={playmarket}
+                    alt="playmarket"
+                    height={isLargerThan640 ? 55 : 40}
+                    width={isLargerThan640 ? 200 : 160}
+                  />
+                </Link>
               </div>
               <Image
                 src={qr}

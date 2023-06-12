@@ -13,6 +13,7 @@ import qr from 'public/images/qr-dl.png';
 import Image from 'next/image';
 import { useMediaQuery } from '@mui/material';
 import classNames from 'classnames';
+import Link from 'next/link';
 
 const Title: FC = () => {
   const [titleIndex, setTitleIndex] = useState(0);
@@ -73,18 +74,29 @@ const Title: FC = () => {
           </p>
           <div className="flex flex-wrap gap-x-4 gap-y-2 sm:gap-x-8 sm:gap-y-4 pt-16 sm:pt-20 max-sm:items-center">
             <div className="flex max-sm:flex-col flex-wrap gap-x-4 gap-y-2 sm:gap-x-8 sm:gap-y-4">
-              <Image
-                src={appstore}
-                alt="appstore"
-                width={isLargerThan640 ? 220 : 150}
-                height={isLargerThan640 ? 65 : 40}
-              />
-              <Image
-                src={googlaPlay}
-                alt="googlaPlay"
-                width={isLargerThan640 ? 220 : 150}
-                height={isLargerThan640 ? 65 : 40}
-              />
+              <Link
+                href="https://apps.apple.com/ru/app/google/id284815942"
+                target="_blank"
+              >
+                <Image
+                  src={appstore}
+                  alt="appstore"
+                  width={isLargerThan640 ? 220 : 150}
+                  height={isLargerThan640 ? 65 : 40}
+                />
+              </Link>
+
+              <Link
+                href="https://play.google.com/store/apps/details?id=com.google.android.googlequicksearchbox"
+                target="_blank"
+              >
+                <Image
+                  src={googlaPlay}
+                  alt="googlaPlay"
+                  width={isLargerThan640 ? 220 : 150}
+                  height={isLargerThan640 ? 65 : 40}
+                />
+              </Link>
             </div>
 
             <Image src={qr} alt="qr" width={isLargerThan640 ? 65 : 100} />
