@@ -13,10 +13,7 @@ const Countries: FC = () => {
 
   return (
     <div className="pt-20 sm:pt-36" id="countries">
-      <div
-        className="rounded-3xl sm:rounded-[40px]"
-        style={{ background: '#FFD53F' }}
-      >
+      <div style={{ background: '#FFD53F' }}>
         <div className="py-10 sm:py-20 max-w-6xl mx-auto px-5 sm:px-10">
           <h2
             className="text-3xl sm:text-5xl sm:h-[80px] font-extrabold"
