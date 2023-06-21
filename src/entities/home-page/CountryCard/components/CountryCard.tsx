@@ -55,55 +55,53 @@ const CountryCard: FC<Props> = ({
   }, [isFullActive]);
 
   return (
-    <>
-      <div
-        className={classNames('rounded-lg py-2 px-4 cursor-pointer relative', {
-          'bg-emerald-300': isFullActive,
-          'bg-white': !isFullActive,
-        })}
-        onMouseEnter={() => (isLargerThan640 ? setIsActive(true) : null)}
-        onMouseLeave={() => (isLargerThan640 ? setIsActive(false) : null)}
-        onClick={() => {
-          if (!isLargerThan640) {
-            if (isGlobalActive) {
-              setIsActive(false);
-            } else {
-              setIsActive(true);
-            }
-            if (onGlobalClick) onGlobalClick(setIsActive);
+    <div
+      className={classNames('rounded-lg py-2 px-4 cursor-pointer relative', {
+        'bg-emerald-300': isFullActive,
+        'bg-white': !isFullActive,
+      })}
+      onMouseEnter={() => (isLargerThan640 ? setIsActive(true) : null)}
+      onMouseLeave={() => (isLargerThan640 ? setIsActive(false) : null)}
+      onClick={() => {
+        if (!isLargerThan640) {
+          if (isGlobalActive) {
+            setIsActive(false);
+          } else {
+            setIsActive(true);
           }
-        }}
-      >
-        <p>{title}</p>
-        {citiesList.length > 1 && (
-          <div
-            className={classNames(
-              'animate__animated animate__faster shadow-lg absolute min-w-[110px] top-12 left-0 flex flex-col gap-1 bg-white p-2 rounded-lg z-50',
-              {
-                animate__fadeIn: isFullActive,
-                animate__fadeOut: !isFullActive,
-              },
-            )}
-          >
-            {citiesList.map(({ title }, i) => (
-              <div
-                className={classNames(
-                  'animate__animated rounded-lg py-2 px-4 cursor-default bg-gray-200',
-                  {
-                    animate__fadeIn: isFullActive,
-                    animate__fadeOut: !isFullActive,
-                  },
-                )}
-                style={{ animationDirection: '0.05s' }}
-                key={i}
-              >
-                {title}
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
-    </>
+          if (onGlobalClick) onGlobalClick(setIsActive);
+        }
+      }}
+    >
+      <p>{title}</p>
+      {citiesList.length > 1 && (
+        <div
+          className={classNames(
+            'animate__animated animate__faster shadow-lg absolute min-w-[110px] top-11 left-0 flex flex-col gap-1 bg-white p-2 rounded-lg z-50',
+            {
+              animate__fadeIn: isFullActive,
+              animate__fadeOut: !isFullActive,
+            },
+          )}
+        >
+          {citiesList.map(({ title }, i) => (
+            <div
+              className={classNames(
+                'animate__animated rounded-lg py-2 px-4 cursor-default bg-gray-200',
+                {
+                  animate__fadeIn: isFullActive,
+                  animate__fadeOut: !isFullActive,
+                },
+              )}
+              style={{ animationDirection: '0.05s' }}
+              key={i}
+            >
+              {title}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
   );
 };
 
